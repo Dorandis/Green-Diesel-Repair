@@ -1,0 +1,138 @@
+/* Reset Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body Styles */
+body {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  background-image: url('Mechanic\ Tools.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  color: rgb(255, 255, 255);
+}
+
+/* Header Styles */
+header {
+  background-color: #3f3c3c;
+  color: #6ab04c;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+}
+
+header h1 {
+  font-size: 2.5rem;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+}
+
+nav ul li {
+  margin-left: 2rem;
+}
+
+nav ul li:first-child {
+  margin-left: 0;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+nav ul li a:hover {
+  color: #6ab04c;
+}
+
+/* Main Styles */
+main {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+section {
+  margin-bottom: 4rem;
+}
+
+section h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: #6ab04c; /* green color for section titles */
+}
+
+ul {
+  list-style: none;
+  margin-left: 2rem;
+}
+
+ul li {
+  margin-bottom: 1rem;
+}
+
+a {
+  display: inline-block;
+  background-color: #6ab04c;
+  color: #fff;
+  padding: 0.5rem 1rem;
+  text-decoration: none;
+  border-radius: 0.25rem;
+  transition: background-color 0.3s;
+}
+
+a:hover {
+  background-color: #49933d;
+}
+
+/* Contact Form Styles */
+form label {
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+form input[type="text"], form input[type="email"], form textarea {
+  width: 100%;
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 0.25rem;
+}
+
+form textarea {
+  height: 10rem;
+}
+
+form button[type="submit"] {
+  display: block;
+  background-color: #6ab04c;
+  color: #fff;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 0.25rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+form button[type="submit"]:hover {
+  background-color: #49933d;
+}
+
+/* Utility Styles */
+.bg-overlay {
+  background-color: rgba(0, 0, 0, .7);
+  padding: 1rem;
+  border-radius: 0.25rem;
+}
